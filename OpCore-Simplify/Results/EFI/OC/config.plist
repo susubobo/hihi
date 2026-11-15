@@ -347,7 +347,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/USBToolBox</string>
 				<key>MaxKernel</key>
@@ -365,7 +365,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -460,11 +460,11 @@
 			<key>ProvideCurrentCpuInfo</key>
 			<false/>
 			<key>SetApfsTrimTimeout</key>
-			<integer>-1</integer>
+			<integer>0</integer>
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>Scheme</key>
 		<dict>
@@ -606,7 +606,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>-v debug=0x100 keepsyms=1 npci=0x2000</string>
+				<string>-v debug=0x100 keepsyms=1 npci=0x3000</string>
 				<key>csr-active-config</key>
 				<data>
 				AwoAAA==
