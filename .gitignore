@@ -1,0 +1,8 @@
+# Ignore files exceeding GitHub 100MB limit
+com.apple.recovery.boot/
+gibMacOS/macOS Downloads/
+*.dmg
+*.pkg
+*.zip
+*.temp
+*.log
